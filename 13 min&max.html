@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>min&max tag</title>
+</head>
+<body style="besk">
+    
+    <form action="5_SUCEES FILE.HTML">
+        <table border="1" cellpadding="10" cellspacing="5" align="center" width="50%">
+<tr>
+    <td>
+        <label for="source">source</label>
+        <input type="text" name="source" id="source" required list="cities_name">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="destination">destination</label>
+        <input type="text" name="destination" id="destination"required list="cities_name">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="journey_date">source</label>
+        <input type="date" name="date" id="date" min="2026-01-18" max="2026-2-18" required>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="seats">select seats</label>
+        <input type="number" name="seats" id="seats" min="1" max="15" required>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="" required>bustype</label><br>
+        <input type="radio" name="bustype">volvo
+        <input type="radio" name="bustype">exprecs
+        <input type="radio" name="bustype">ac
+        <input type="radio" name="bustype">non-ac
+        <input type="radio" name="bustype">seating
+        <input type="radio" name="bustype">sleeper
+
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan="2">
+        <input type="submit" value="submit">
+        <input type="reset" value="clear all">
+    </td>
+</tr>
+        </table>
+    </form>
+    <datalist id="cities_name">
+        <option value="bhavnager">bhavnager</option>
+        <option value="div">div</option>
+        <option value="somnath">somnath</option>
+        <option value="ahemdabad">ahemdabad</option>
+        <option value="valsad">valsad</option>
+        <option value="vapi">vapi</option>
+        <option value="pune">pune</option>
+        <option value="nagpur">nagpur</option>
+        <option value="botad">botad</option>
+        <option value="baroda">baroda</option>
+        <option value="rajkot">rajkot</option>
+        <option value="surat">surat</option>
+        <option value="amreli">amreli</option>
+    </datalist>
+</body>
+</html>
